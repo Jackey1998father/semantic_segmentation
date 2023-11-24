@@ -1,0 +1,17 @@
+# 忽略编译生成的文件
+
+*.mat
+
+# 忽略元数据文件
+*.log
+*.swp
+*.jpg
+.DS_Store
+
+# 忽略构建目录
+/logs/
+/benchmark_RELEASE/
+
+# 忽略包含敏感信息的配置文件
+config.ini
+secrets.yml
