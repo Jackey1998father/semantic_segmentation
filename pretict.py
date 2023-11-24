@@ -56,6 +56,7 @@ def predict(model, best_model_path, val_loader, cuda, pic_save_path):
             imgs = cv2.imread(filenames[batch_idx])
             imgs = cv2.cvtColor(imgs, cv2.COLOR_BGR2RGB)
 
+
             plt.imshow(imgs)
             plt.title('Original Image')
 

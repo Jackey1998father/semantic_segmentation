@@ -10,7 +10,7 @@
 
 # 忽略构建目录
 /logs/
-/benchmark_RELEASE/
+/benchmark_RELEASE)/
 
 # 忽略包含敏感信息的配置文件
 config.ini
